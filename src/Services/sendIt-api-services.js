@@ -69,21 +69,8 @@ const sendItApiService ={
       : res.json()
       )
   },
-  getTotalProjectsPerDifficulty(user_id, difficulty){
-    return fetch(`${config.API_ENDPOINT}/data/${user_id}/total_projects/${difficulty}`, {
-      method: 'GET',
-      headers: {
-        'content-type': 'application/json'
-      },
-    })
-    .then(res =>
-      (!res.ok)
-      ? res.json().then(error => Promise.reject(error))
-      : res.json()
-      )
-  },
-  getAttemptsPerDifficulty(user_id, difficulty){
-    return fetch(`${config.API_ENDPOINT}/data/${user_id}/attempts_per_difficulty/${difficulty}`, {
+  getProjectsPerDifficulty(user_id){
+    return fetch(`${config.API_ENDPOINT}/data/${user_id}/total_projects/`, {
       method: 'GET',
       headers: {
         'content-type': 'application/json'
