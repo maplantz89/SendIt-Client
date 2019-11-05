@@ -1,0 +1,18 @@
+$SendItGreen: #62A892;
+
+.header{
+  background-color: $SendItGreen;
+  color: white;
+  height: 60px;
+  padding-top: 20px;
+  .title{
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .filter-btn{
+    background-color: rgb(120, 210, 178);
+    font-size: 10px;
+    color: white;
+    border-radius: 30px;
+  }
+}

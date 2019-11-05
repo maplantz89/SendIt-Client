@@ -1,0 +1,35 @@
+$SendItGreen: #62A892;
+
+.background-login-form{
+  height: 335px;
+  width: 100%;
+  background-image: url("../../images/topimg@2x.png");
+  background-repeat: no-repeat;
+  background-position: 0% -175px;
+}
+
+.logo-login{
+  padding-top: 45%;
+}
+
+form.login-form{
+  color: $SendItGreen;
+  padding: 0 35px;
+  input.login-input{
+    border:none;
+    border-bottom: 1px solid rgb(168, 208, 168);
+    font-size: 14px;
+  }
+  input.username-input{
+    margin-bottom: 35px;
+  }
+}
+
+.login-btn{
+  padding: 30px 0 20px 0;
+}
+
+.forgot-password{
+  font-size: 12px;
+  font-weight: 900;
+}

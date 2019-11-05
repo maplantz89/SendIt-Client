@@ -1,0 +1,40 @@
+
+.filters{
+  background-color: rgb(114, 211, 169);
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 6px 0 6px 20px;
+}
+
+ul.list-climbs{
+  padding: 10px 0px;
+  margin: auto;
+  width: 90%;
+  .climb-item{
+    border-bottom: rgb(220, 219, 219) 1px solid;
+    list-style: none;
+    padding: 15px 0;
+    line-height: 10px;
+    .difficulty{
+      color: rgb(193, 15, 15);
+      font-weight: 900;
+    }
+    .location{
+      font-weight: 900;
+      color: grey;
+    }
+    .date{
+      font-size: 10px;
+      font-weight: 300;
+      color: grey;
+      padding-left: 50px;
+    }
+    .attempts{
+      padding-left: 170px;
+      font-size: 10px;
+      color: grey;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+
+.data-cont-1{
+  padding-bottom: 10px; 
+}
+
+.highest-difficulty{
+  border: grey 1px solid;
+  padding: 20px;
+  line-height: 10px;
+  .difficulty{
+    color: rgb(145, 24, 24);
+    padding-right: 40px;
+    font-weight: 900;
+  }
+  .date{
+    font-size: 10px;
+    padding-left: 60px; 
+  }
+}

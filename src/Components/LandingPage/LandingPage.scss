@@ -1,0 +1,56 @@
+$SendItGreen: #62A892;
+
+.background{
+  height: 450px;
+  width: 100%;
+  background-image: url("../../images/topimg@2x.png");
+  background-repeat: no-repeat;
+  background-position: 0% -100px;
+}
+
+.logo{
+  padding-top: 45%;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+
+.registration-button{
+  background-color: $SendItGreen;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.25);
+  color: white;
+}
+
+.google-button{
+  background-color: white;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.25);
+  color: $SendItGreen;
+  margin: 20px;
+  span{
+    padding-left: 10px; 
+    vertical-align: middle;
+  }
+}
+
+.create-account-button{
+  color: $SendItGreen;
+}
+
+.sign-in-buttons{
+  text-align: center;
+  margin: auto;
+}
+
+ul.sign-in-buttons {
+  padding: 0;
+  text-align: center;
+  li{
+    list-style: none;
+  }
+}
+
+// hover state in scss
+// &:hover{
+//   cursor: pointer;
+//   background-color:red;
+// }
