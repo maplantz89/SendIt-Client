@@ -3,7 +3,7 @@ import config from '../config'
 const sendItApiService ={
 
   postUser(user){
-    return fetch(`${config.API_ENDPOINT}/register`, {
+    return fetch(`${config.API_ENDPOINT}/users`, {
       method: 'POST',
       headers: {
         'content-type': 'application/json'
